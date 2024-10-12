@@ -2,10 +2,13 @@
 
 ## Overview
 
-**Nebula Crisis: Overlord Showdown** is a text-based adventure game set aboard an intergalactic spaceship that has been
-overrun by a deadly Alien Overlord. As the player, your mission is to explore the ship, gather critical items, and
-activate the ship’s defense system before the Alien Overlord catches you. Each playthrough is unique due to randomized
+**Nebula Crisis: Overlord Showdown** is a web-based terminal game set aboard an intergalactic spaceship that has been 
+overrun by a deadly Alien Overlord. As the player, your mission is to explore the ship, gather critical items, and 
+activate the ship’s defense system before the Alien Overlord catches you. Each playthrough is unique due to randomized 
 starting positions, item locations, and the alien’s whereabouts, ensuring unpredictability and replayability.
+
+This game is hosted on AWS and utilizes GateOne to provide an immersive terminal-based gameplay experience accessible 
+via any modern web browser.
 
 ## Gameplay
 
@@ -32,13 +35,14 @@ Alien Overlord before collecting all the necessary items, you will be defeated, 
 
 ## Features
 
+- Web-based Terminal Interface: Play the game via a terminal emulation accessible through any web browser, offering an 
+- authentic command-line experience powered by GateOne and hosted on AWS.
 - **Randomized Start and Item Locations**: Both your starting point and the location of the essential items and the
   Alien Overlord are randomized with each new game, ensuring replayability and unpredictability.
-- **Text-based Interface**: Navigate between rooms and collect items via simple text commands.
 - **Item Collection**: Explore different rooms on the spaceship to collect the essential items.
 - **Replayability**: Each playthrough is different, adding a layer of challenge and excitement as you explore the ship.
 
-## Installation
+## Installation (for Local Development)
 
 1. Clone this repository to your local machine using:
    ```bash
@@ -54,6 +58,16 @@ Alien Overlord before collecting all the necessary items, you will be defeated, 
     ```bash
     python main.py
     ```
+
+## AWS Deployment and GateOne Integration
+
+This project is hosted on AWS, utilizing GateOne to provide terminal-based gameplay accessible via the web. Follow 
+these steps to deploy the game on AWS:
+
+1. Set up an AWS EC2 instance and install the necessary Python dependencies.
+2. Install and configure GateOne for terminal emulation.
+3. Deploy the game code to the server and ensure the game runs properly within the GateOne interface.
+4. Access the game via the provided URL to experience Nebula Crisis: Overlord Showdown in your web browser.
 
 ## How to Play
 
